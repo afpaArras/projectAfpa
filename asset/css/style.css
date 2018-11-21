@@ -3,6 +3,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #fdff97;
 }
 .navbar{
     background: #33759800;
@@ -32,3 +33,4 @@ nav ul li a:hover {
     margin-top: -300px;
     background-size: cover;
 }
+
