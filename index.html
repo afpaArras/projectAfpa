@@ -38,42 +38,45 @@
 
     <!-- Début Modal -->
 
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle"><strong>Authentification</strong></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Entrer votre email">
-                  <small id="emailHelp" class="form-text text-muted"><i>Cet email est l'identifiant pour accéder à votre compte</i></small>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"><strong>Authentification</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Mot de passe</label>
-                  <input type="password" class="form-control" id="mdp" placeholder="Entrer votre mot de passe">
-                  <a href="#"><small id="pertemdp" class="form-text text-muted"><i>Mot de passe oublié ?</i></small></a>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                placeholder="Entrer votre email">
+                            <small id="emailHelp" class="form-text text-muted"><i>Cet email est l'identifiant pour
+                                    accéder à votre compte</i></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Mot de passe</label>
+                            <input type="password" class="form-control" id="mdp" placeholder="Entrer votre mot de passe">
+                            <a href="#"><small id="pertemdp" class="form-text text-muted"><i>Mot de passe oublié ?</i></small></a>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="souv">
+                            <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+
+                        </div>
+                    </form>
                 </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="souv">
-                  <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
-    
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary" onclick="ouvins()">Première connexion ?</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary" id="modal">Envoyer</button>
                 </div>
-              </form>
+            </div>
         </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-outline-primary" onclick="ouvins()">Première connexion ?</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-            <button type="button" class="btn btn-primary" id="modal">Envoyer</button>
-        </div>
-      </div>
     </div>
-  </div>
 
     <!-- -------------------CARROUSSEL-------------------------------------- -->
 
@@ -88,10 +91,10 @@
                 <img class="d-block w-100" src="asset/img/slide1.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+                <img class="d-block w-100" src="asset/img/slide1.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+                <img class="d-block w-100" src="asset/img/slide1.jpg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -102,6 +105,41 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+    </div>
+    <!-- ----------------------barre de livraison-------------------------------- -->
+    <div class="livraison">
+
+        <h4>FRAIS DE LIVRAISON OFFERT DES 75€ D'ACHAT</h4>
+
+    </div>
+    <!-- ---------------------BARRE SOUS MENUE HOMMES FEMMES .....---------- -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1" style="margin-left:4.16%">
+
+                </div>
+                <div class="col-md-3 col-sm-3 p-0">
+                    <div class="categorie">
+                        <a href="homme.html">HOMMES</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 p-0">
+                    <div class="categorie">
+                        <a href="homme.html">FEMMES</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 p-0">
+                    <div class="categorie">
+                        <a href="homme.html">ENFANTS</a>
+                    </div>
+                </div>
+                <div class="banier">
+                    <img src="asset/img/solde.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
     </div>
 
 
