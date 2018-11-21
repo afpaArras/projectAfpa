@@ -81,8 +81,11 @@ button.btn_article{
 
 /* style hover article */
 
-.card:hover .border_titre_tailles{
+.card:hover{
 	border-bottom-color: red;
-	display: block;
 	border-width: 5px;
+}
+
+.card:hover .border_titre_tailles{
+	display: block;
 }
