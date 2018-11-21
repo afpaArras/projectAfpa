@@ -9,3 +9,7 @@ $(document).ready(function(){
     function ouvins(){
         location.href = "./inscription.html";
     }
+
+    function ouvind(){
+        location.href = "./index.html";
+    }
