@@ -13,3 +13,7 @@ $(document).ready(function(){
     function ouvind(){
         location.href = "./index.html";
     }
+
+    function ouvoub(){
+        location.href = "./index.html";
+    }
