@@ -1,0 +1,61 @@
+/* Style presentation articles page homme */
+h5{
+	color: #337598;
+}
+
+ /* Les couleurs */
+
+li.couleurrouge{
+	 width:20px;
+	 height:20px;
+ 	background:red;
+}
+
+li.couleurvert{
+	width:20px;
+	 height:20px;
+ 	background:green;
+}
+
+li.couleurjaune{
+	 width:20px;
+	 height:20px;
+ 	background:yellow;
+}
+
+li.couleurnoir{
+	width:20px;
+	 height:20px;
+ 	background:black;
+}
+
+li.couleurorange{
+	 width:20px;
+	 height:20px;
+ 	background:#FF5B2B;
+}
+
+li.couleurblanc{
+	width:20px;
+	 height:20px;
+ 	background:white;
+ 	border:1px solid;
+}
+
+li.couleurbleu{
+	 width:20px;
+	 height:20px;
+ 	background:blue;
+}
+
+li.couleurviolet{
+	width:20px;
+	 height:20px;
+ 	background:#853894;
+}
+
+button.btn_article{
+	position: absolute;
+	background-color: #337598;
+	color:white;
+}

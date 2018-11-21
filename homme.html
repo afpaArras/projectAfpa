@@ -8,32 +8,89 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="asset/css/style.css">
+        <link rel="stylesheet" href="asset/css/stylehomme.css">
     <title>Projet Ecommerce | L'AfpaFouille</title>
 </head>
 
 <body>
 
+<!-- Les Cards Articles -->
 <div class="container">
     <div class="row">
-        <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/" alt="short Long Surf">
-        <div class="card-body">
-        <h5 class="card-title">SHORT LONG SURF</h5>
-        <p class="card-text">Le nouveau Short Long Surf AfpaFouille est ce qui se fait de mieux en termes de confort.</p>
-        <a href="#" class="btn btn-primary">Détails</a>
-        <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/" alt="short Long Surf">
-        <div class="card-body">
-        <h5 class="card-title">SHORT LONG SURF</h5>
-        <p class="card-text">Le nouveau Short Long Surf AfpaFouille est ce qui se fait de mieux en termes de confort.</p>
-        <a href="#" class="btn btn-primary">Détails</a>
-  </div>
-</div>
+        <!-- Card  Button Homme Femme Enfant - Taille - Couleur -->
+        <div class="card col-md-3 col-sm-3 mr-2">
+            <div class="card-body">
+                <ul class=" list-unstyled border-0 list-inline">
+                    <li class="list-inline-item btn btn-light p-2 m-2">HOMME</li> 
+                    <li class="list-inline-item btn btn-light p-2 m-2">FEMME</li>
+                    <li class="btn btn-light p-2 m-2">ENFANT</li>
+                </ul>
+                <p class="p-2 m-2 font-weight-bold">TAILLE</p>
+                <ul class=" list-unstyled border-0 list-inline">
+                    <li class="list-inline-item btn btn-light p-2 m-2">XS</li> 
+                    <li class="list-inline-item btn btn-light p-2 m-2">SMALL</li>
+                    <li class="btn btn-light p-2 m-2">MEDIUM</li>
+                    <li class="list-inline-item btn btn-light p-2 m-2">LARGE</li>
+                    <li class="btn btn-light p-2 m-2">X-LARGE</li>
+                    <li class="list-inline-item btn btn-light p-2 m-2">XX-LARGE</li>
+                </ul>
+                <p class="p-2 m-2 font-weight-bold">COULEUR</p>
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item couleurrouge"></li> 
+                    <li class="list-inline-item couleurvert"></li>
+                    <li class="list-inline-item couleurjaune"></li> 
+                    <li class="list-inline-item couleurnoir"></li>
+                </ul>
+                 <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item couleurorange"></li> 
+                    <li class="list-inline-item couleurbleu"></li>
+                    <li class="list-inline-item couleurviolet"></li> 
+                    <li class="list-inline-item couleurblanc"></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Card Short -->
+        <div class="card col-md-2 col-sm-2  mx-1">
+            <img class="card-img-top" src="asset/src/short.png" alt="Short Long Surf">
+            <div class="card-body">
+                <h5 class="card-title font-weight-bold text-center">SHORT LONG SURF</h5>
+                <p class="card-text">Le nouveau Short Long Surf AfpaFouille est ce qui se fait de mieux en termes de confort.</p>
+                <p class="card-text font-weight-bold">45,00€</p>
+                <a href="#"><button type="button" class="btn_article">Détails</button></a>
+            </div>
+        </div>
+        <!-- Card Tee Shirt -->
+        <div class="card col-md-2 col-sm-2 border border-primary border-5 mx-1" >
+        <img class="card-img-top" src="asset/src/tee-shirt.png" alt="tee-shirt Hossegor">
+            <div class="card-body">
+            <h5 class="card-title font-weight-bold text-center">TEE SHIRT HOSSEGOR</h5>
+            <p class="card-text">Le nouveau Tee-shirt Hossegor. La Capitale du Surf.</p>
+            <p class="card-text font-weight-bold">25,00€</p>
+            <a href="#"><button type="button" class="btn_article">Détails</button></a>
+            </div>
+        </div>
+        <!-- Card Casquette -->
+         <div class="card col-md-2 col-sm-2  border border-primary border-5 mx-1" >
+        <img class="card-img-top" src="asset/src/casquette.png" alt="Casquette Surf">
+            <div class="card-body">
+            <h5 class="card-title font-weight-bold text-center">CASQUETTE SURF</h5>
+            <p class="card-text"> Casquette AfpaFouille Blanc/ Bleu .</p>
+            <p class="card-text font-weight-bold">15,00€</p>
+            <a href="#"><button type="button" class="btn_article">Détails</button></a>
+            </div>
+        </div>
+        <!-- Card Veste -->
+         <div class="card col-md-2 col-sm-2 border border-primary border-5 mx-1" >
+        <img class="card-img-top" src="asset/src/veste.png" alt="Veste Surf">
+            <div class="card-body">
+            <h5 class="card-title font-weight-bold text-center">VESTE SURF</h5>
+            <p class="card-text">La nouvelle Veste Surf AfpaFouile respirante, imperméable et extrêmement résistante.</p>
+            <p class="card-text font-weight-bold">75,00€</p>
+            <a href="#"><button type="button" class="btn_article">Détails</button></a>
+            </div>
+        </div>
     </div>
 </div>
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
