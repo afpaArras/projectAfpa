@@ -74,9 +74,15 @@ nav ul li a:hover {
 }
 .banier img{
     width: 1140px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
 }
-
-
-
-
+/* --------------ROW VITRINE ARTICLE----------------------- */
+ 
+.price h3{
+    font-family: 'Roboto', sans-serif;
+    color: #337598;
+    position: absolute;
+    bottom:0;
+    text-decoration: line-through;
+}
 
