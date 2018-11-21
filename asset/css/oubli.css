@@ -1,4 +1,4 @@
-/* --------------Inscription----------------- */
+/* --------------Oubli du mot de passe----------------- */
 
 body {
     margin: 0;
@@ -11,30 +11,6 @@ body {
 
 #envins{
      margin-top:30px; 
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #fdff97;
-}
-.navbar{
-    background: #33759800;
-}
-
-#FormIns{
-    height:100%;
-    width: 100%;
-    margin-top:10px;
-    left:50%;
-    border-style: solid;
-    border-color: #337598;
-    padding: 25px;
-    background-color:white;
-}
-
-#envins{
-     margin-top:27px; 
 }
 
 #titreins{
@@ -53,3 +29,6 @@ body {
     background-color:white;
 }
 
+#envoub{
+    margin-top:27px; 
+}
