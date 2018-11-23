@@ -81,8 +81,22 @@ button.btn_article{
 
 /* style hover article */
 
-.card:hover .border_titre_tailles{
+.action_card:hover .border_titre_tailles{
 	border-bottom-color: red;
 	display: block;
 	border-width: 5px;
+}
+
+.action_card:hover {
+	border-bottom-color: red;
+	border-width: 5px;
+}
+
+.container{
+	min-width: 90% !important;
+}
+
+.btn-sm{
+	border-color: #337598 !important;
+	margin: 0 !important;
 }
