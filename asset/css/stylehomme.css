@@ -92,7 +92,7 @@ button.btn_article{
 	border-width: 5px;
 }
 
-.container{
+#container{
 	min-width: 90% !important;
 }
 
